@@ -4,6 +4,23 @@
   margin: 0;
 }
 
+html{
+  background-color: #faeee7;
+  font-color: #594a4e;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 18px;
+  margin: 50px
+}
+
+img{
+  height: 300px;
+  width: auto;
+}
+
+.subtitle{
+  font-size: 30px;
+}
+
 ul, ol {
   margin-left: 25px;
 }
