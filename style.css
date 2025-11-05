@@ -5,24 +5,61 @@
 }
 
 html{
-  background-color: #faeee7;
-  font-color: #594a4e;
+  background-color: #232946;
+  color: #fffffe;
   font-family: Trebuchet MS, sans-serif;
   font-size: 18px;
-  margin: 50px
+  margin: 50px;
 }
 
 img{
   height: 300px;
   width: auto;
+  display: block;
+  margin: auto;
+}
+
+.title{
+  font-size: 50px;
+  text-align: center;
+  color: #eebbc3;
+  margin: 10px;
 }
 
 .subtitle{
   font-size: 30px;
+  text-align: center;
+  color: #fffffe;
 }
 
+.author{
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  color: #fffffe;
+  font-style: italic;
+}
+
+h1, h2{
+  color: #eebbc3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.time{
+  font-weight:bold;
+  color: #b8c1ec;
+  margin: 10px;
+}
+
+ul li{
+   list-style: square;
+}
 ul, ol {
   margin-left: 25px;
+}
+li{
+  max-width: 700px
 }
 /*select html and set the background color, color, font family with fallback, and font size. */
 /*change img height to 300px and width to auto*/
