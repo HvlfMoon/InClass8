@@ -1,65 +1,83 @@
 /* Style the body to set default styles for the page.*/
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-html{
-  background-color: #232946;
-  color: #fffffe;
-  font-family: Trebuchet MS, sans-serif;
-  font-size: 18px;
-  margin: 50px;
+html {
+    background-color: #232946;
+    color: #fffffe;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 18px;
+    margin: 50px;
 }
 
-img{
-  height: 300px;
-  width: auto;
-  display: block;
-  margin: auto;
+img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
 }
 
-.title{
-  font-size: 40px;
-  text-align: center;
-  color: #eebbc3;
-  margin: 10px;
+.title {
+    font-size: 40px;
+    text-align: center;
+    color: #eebbc3;
+    margin: 10px;
 }
 
-.subtitle{
-  font-size: 30px;
-  text-align: center;
-  color: #fffffe;
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+    color: #fffffe;
 }
 
-.author{
-  font-size: 20px;
-  text-align: center;
-  margin: 20px;
-  color: #fffffe;
-  font-style: italic;
+.author {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: #fffffe;
+    font-style: italic;
 }
 
-h1, h2{
-  color: #eebbc3;
-  text-align: center;
-  text-transform: uppercase;
+h1, h2 {
+    color: #eebbc3;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.time{
-  font-weight:bold;
-  color: #b8c1ec;
-  margin: 10px;
+.time {
+    font-weight: bold;
+    color: #b8c1ec;
+    margin: 10px;
 }
 
-ul li{
-   list-style: square;
+ul li {
+    list-style: square;
 }
 ul, ol {
-  margin-left: 25px;
+    margin-left: 25px;
 }
-li{
-  max-width: 700px
+li {
+    max-width: 700px
+}
+
+a:link {
+    color: #eebbc3;
+
+}
+
+a:visited {
+    color: #b8c1ec;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fffffe;
 }
 /*select html and set the background color, color, font family with fallback, and font size. */
 /*change img height to 300px and width to auto*/
