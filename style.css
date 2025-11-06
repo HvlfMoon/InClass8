@@ -22,14 +22,14 @@ img {
 .title {
     font-size: 40px;
     text-align: center;
-    color: #eebbc3;
+    color: hotpink;
     margin: 10px;
 }
 
 .subtitle {
     font-size: 30px;
     text-align: center;
-    color: #fffffe;
+    color: #b8c1ec;
 }
 
 .author {
@@ -41,22 +41,32 @@ img {
 }
 
 h1, h2 {
-    color: #eebbc3;
+    color: hotpink;
     text-align: center;
     text-transform: uppercase;
 }
 
 .time {
     font-weight: bold;
-    color: #b8c1ec;
+    color: #fbdd74;
+    margin: 20px;
+}
+
+p {
+    color: #eebbc3;
     margin: 10px;
 }
 
 ul li {
     list-style: square;
+    margin: 0.5rem;
+}
+
+ol li {
+    margin: 0.5rem;
 }
 ul, ol {
-    margin-left: 25px;
+    margin-left: 50px;
 }
 li {
     max-width: 700px
